@@ -65,6 +65,11 @@ The workflow implemented in `ExpDiff_research.ipynb` includes:
 
 ## Results
 
+<p align="center">
+  <img src="/results/egfr_top_molecules.png" width="900" height="450">
+</p>
+
+
 - **All generated molecules:** 10+ candidates with diverse scaffolds and calculated properties.  
 - **Top candidates (after filtering):** 5 molecules with optimal QED (0.51–0.59), balanced LogP (3.4–4.3), low SA (~1.2–1.3), and non-toxic.  
 - **Outputs stored in `results/`:**
