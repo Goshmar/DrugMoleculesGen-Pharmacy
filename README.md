@@ -13,7 +13,7 @@ This work implements the generation and filtering of drug-like molecules targeti
 - **ExpDiff_research.ipynb**: Main notebook performing molecule generation, property calculation, and filtering (Section 4).
 - **results/:** Stores generated molecule images, CSV files with properties, and top candidate structures.
 - **paper/:** Contains research article and ExpDiff framework illustration.
-- **src/:** Contains the core implementation of the diffusion model and utility scripts and origin notebooks including all steps (1-3) leading up to the final experiments.
+- **src/:** Contains the core implementation of the diffusion model and utility scripts and origin notebooks including all steps (Section 1 - 3 of the **ExpDiff_research.ipynb**) leading up to the final experiments.
 
 
 ---
