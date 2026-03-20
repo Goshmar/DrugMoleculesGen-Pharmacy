@@ -1,4 +1,4 @@
-# Generation and Filtering of Drug-like Molecules (EGFR Target)
+# Generation and Filtering of Drug-like Molecules
 
 This work implements the generation and filtering of drug-like molecules targeting the **Epidermal Growth Factor Receptor (EGFR)** using a 3D feature-aligned diffusion model. The goal is to generate structurally valid molecules with desirable pharmaceutical properties and identify top candidates for further investigation.  
 
