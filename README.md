@@ -1,6 +1,10 @@
 # Generation and Filtering of Drug-like Molecules
 
-This work implements the generation and filtering of drug-like molecules targeting the **Epidermal Growth Factor Receptor (EGFR)** using a 3D feature-aligned diffusion model. The goal is to generate structurally valid molecules with desirable pharmaceutical properties and identify top candidates for further investigation.  
+This work implements the generation and filtering of drug-like molecules targeting the **Epidermal Growth Factor Receptor (EGFR)** using a dynamic, feature-aligned diffusion framework guided by expert knowledge (ExpDiff model). The goal is to generate structurally valid molecules with desirable pharmaceutical properties and identify top candidates for further investigation.  
+
+<p align="center">
+  <img src="/paper/ExpDiff_framework_scheme.png" width="650" height="600">
+</p>
 
 **Last Update:** March, 20th, 2026  
 
@@ -8,6 +12,7 @@ This work implements the generation and filtering of drug-like molecules targeti
 
 - **ExpDiff_research.ipynb**: Main notebook performing molecule generation, property calculation, and filtering (Section 4).
 - **results/:** Stores generated molecule images, CSV files with properties, and top candidate structures.
+- **paper/:** Contains research article and ExpDiff framework illustration
 - **src/:** Contains the core implementation of the diffusion model and utility scripts and origin notebooks including all steps (1-3) leading up to the final experiments.
 
 
